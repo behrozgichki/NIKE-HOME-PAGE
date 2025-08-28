@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <body>
     <!-- navbar started -->
@@ -32,15 +34,62 @@
             <a href="#">Sport</a>
         </div>
         <div class="icons">
-            <button class="search-btn"> <span class="search-icn"><i class="fa-solid fa-magnifying-glass"></i></span>Search</button>
+            <button class="search-btn"> <span class="search-icn"><i
+                        class="fa-solid fa-magnifying-glass"></i></span>Search</button>
             <span class="heart-icn"><i class="fa-regular fa-heart"></i></span>
             <span class="bag-icn"><i class="fa-solid fa-bag-shopping"></i></span>
         </div>
     </span>
     <!-- navbar ended -->
-    <main></main>
+    <main>
+        <!-- slider image started -->
+        <div class="slider-images">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/slider-image-1.avif" width="100%" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/slider-image-2.avif" width="100%" alt="...">
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- slider image ended -->
+        <div class="cards-image">
+            <div class="card-image-1"><img src="assets/images/card-image.avif" alt="">
+                <div class="card-text">
+                    <p>Back to School</p>
+                    <h2>Game On</h2>
+                    <button>Click Me</button>
+                </div>
+            </div>
+            <div class="card-image-2"><img src="assets/images/card-image.-2avif.jpg" alt="">
+            <div class="card-text-2">
+                    <p>Vomero Plus</p>
+                    <h2>Run Bigger</h2>
+                    <button>Click Me</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
     <footer></footer>
     <script src="https://kit.fontawesome.com/b9cdd3391c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
